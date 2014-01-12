@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US>
+<head>
+	<meta charset="utf-8" />
+	<meta name="Author" content="meetups" />
+	<meta name="viewport" content="width=1024 />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	
+	<title>UW JamSkating</title>
+	<link href='skating.css' type="text/css" rel="stylesheet" />
+	
+	<style type="text/css">
+	.row {vertical-align:top;height:auto;margin-bottom: 20px;}
+	.row a{color: #92B7C4; margin-top:70px;}
+	.list {display:none; }
+	.show{display:none;}
+	.hide:target + .show {display:inline}
+	.hide:target{display: none}
+	.hide:target ~ .list {display: inline;}
+	.hide:target ~ .list a{color:#FFA500}
+	@media print {.hide, .show{display: none}}
+	</style>
+</head>
+
+<body>
+	<header>
+	<h1>UW JamSkating</h1>
+	<p>We are the regulars at Friday Night Rollerskating at the IMA.</p>
+	<li class="link"><a href="https://www.facebook.com/groups/206550486051951/">Join us on Facebook</a></li>
+
+	</header>
+	<div id="container">
+	<ul id="navbar">
+	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/skating.html">Main</a><li>
+	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/meetup.html">Meet ups</a></li>
+	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/tutorial.html">Tutorials</a></li>
+	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/gallery.html">Gallery</a></li>
+	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/faqs.html">FAQ</a></li>
+	</ul>
+	<div id="detail">
+	<div class="row">
+		<a href="#hide1" class="hide" id="hide1">Can I come if I never skate before?</a>
+		<a href="#show1" class="show" id="show1">Can I come if I never skate before?</a>
+		<div class="list">
+		<ul>
+		<li>YES! Every skill level is welcomed.</li>
+		</ul> 	
+		</div>
+		</div>
+	<div class="row">
+		<a href="#hide2" class="hide" id="hide2">Do I have to get my own skater?</a>
+		<a href="#show2" class="show" id="show2">Do I have to get my own skater?</a>
+		<div class="list">
+		<ul>
+		<li>NO. You can rent skater from us for the night and get your own pair whenever you are ready for it.</li>
+		</ul> 	
+		</div>
+	</div>
+	<div class="row">
+		<a href="#hide3" class="hide" id="hide3">Where is it? Any direction?</a>
+		<a href="#show3" class="show" id="show3">Where is it? Any direction?</a>
+		<div class="list">
+		<ul>
+		<li>We locate at the UW IMA first floor inside one of the basketball court.</li>
+		<li><Strong>Directions:</strong>After you get inside of IMA, find the fist door on your left and there you go!</li>
+		<a href="http://www.washington.edu/maps/">Direction to IMA</a>
+		</ul> 	
+	</div>
+	</div>	
+	<div class="row">
+		<a href="#hide4" class="hide" id="hide4">Do I have to pay for it?</a>
+		<a href="#show4" class="show" id="show4">Do I have to pay for it?</a>
+		<div class="list">
+		<ul>
+		<li>If you are a UW student, then its completely free. WII! We will not charge you. However you may need to pay for entering the UW IMA.</li>
+		</ul> 	
+	</div>
+	</div>	
+</body>
+</html>

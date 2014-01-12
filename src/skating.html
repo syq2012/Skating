@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<meta name="Author" content="UW Skating" />
+	<meta name="viewport" content="width=1024 />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	
+	<title>UW JamSkating</title>
+	<link href='skating.css' type="text/css" rel="stylesheet" />
+	<script type="text/javascript">
+	<!--
+	var image1=new Image()
+	image1.src="pic/skater.jpg"
+	var image2 = new Image()
+	image2.src="pic/Roller_skates,_1910.jpg"
+	//-->
+	</script>
+</head>
+
+<body>
+	<header>
+	<h1>UW JamSkating</h1>
+	<p>We are the regulars at Friday Night Rollerskating at the IMA.</p>
+	<li class="link"><a href="https://www.facebook.com/groups/206550486051951/">Join us on Facebook</a></li>
+	</header>
+	<div id="container">
+	<ul id="navbar">
+	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/skating.html">Main</a><li>
+	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/meetup.html">Meet ups</a></li>
+	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/tutorial.html">Tutorials</a></li>
+	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/gallery.html">Gallery</a></li>
+	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/faqs.html">FAQ</a></li>
+	</ul>
+	</div>
+	
+	<div id="coutainer">
+		<div id="img">
+		<a href="javascript:slidelink()"><img src="pic/skater.jpg" name="slide" alt ="photo" weidth="300" height="500"/></a>
+		</div>
+	</div>
+		<script typr="text/javascript">
+		<!--
+		var step=1
+		var whichimage=1
+		function slideit(){
+		if(!document.images)
+		return
+		document.images.slide.src=eval("image"+step+".src")
+		whichimage=step
+		if(step<2)
+		step++
+		else
+		step=1
+		setTimeout("slideit()", 3000)
+		}
+		slideit()
+		function slidelink(){
+		if(whichimage==1)
+		window.location="/Users/yukis/Documents/Skating-club-website/src/gallery.html"
+		else if(whichimage==2)
+		window.location="http://en.wikipedia.org/wiki/Roller_skating"
+		}
+		//-->
+		</script>
+</body>
+</html>

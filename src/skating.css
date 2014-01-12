@@ -1,0 +1,73 @@
+html{ overflow-y: scroll; }
+
+body{
+	background: #141416; color:black  font-family: arial, Helvetica, sans-serif; line-height: 1.2;
+}
+
+header { 
+	color: #dddddd; 
+	width: 800px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	text-align: center; 
+	font-family: 'Rosario', 
+	sans-serif; 
+}
+
+a { color: #7488b5; text-decoration: none; font-weight: bold; }
+
+h1 { font-size: 24pt; margin-left: auto; margin-right: auto; margin-top: 60px;}
+#navbar { height: 50px; margin-left:100px;margin-right:auto;list-style-type: none; 
+		padding: 0px 0px 0px 0px;  }
+
+.navlink{height: 50px; width: 130px; float: left; padding-top: 20px; text-align: center;}
+
+#container { background: #1f1f22; margin: 40px auto auto auto; width: 850px; 
+			min-height: 15px; border: 1px solid rgba(0, 0, 0, 0.7); border-radius: 6px; 
+			-webkit-border-radius: 6px; -moz-border-radius: 6px; 
+			box-shadow: 0 0 1px rgba(160, 160, 200, 0.3) inset; 
+			-webkit-box-shadow: 0 0 1px rgba(160, 160, 200, 0.3) inset; 
+			-moz-box-shadow: 0 0 1px rgba(160, 160, 200, 0.3) inset; }
+#img{
+	border: 1px solid #C0C0C0;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right:200px;
+	height: 500px;
+	width: auto;
+	text-align: center;
+}
+
+#detail{
+	width:600px; height: 250px; margin-left: auto; margin-right:auto; color:#dddddd;
+	margin-top: 60px;
+}
+
+#detail p{font-size: 15pt;}
+
+.navlink2{height: 50px; float: left; padding-top: 20px; text-align: center;}
+
+.navlink2 a{color: #CCEEFF}
+
+strong{color:#5e7b86}
+
+/* styling for the image wrapper  */
+#image_wrap {
+    /* dimensions */
+    width:700px;
+    padding:15px 0;
+ 
+    /* centered */
+    text-align:center;
+ 
+    /* some "skinning" */
+    background-color:#efefef;
+    border:2px solid #fff;
+    outline:1px solid #ddd;
+    -moz-ouline-radius:4px;
+}
+
+.link a{color:#FFA500}
+
+
+
