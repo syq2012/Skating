@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 <head>
 	<meta charset="utf-8" />
-	<meta name="Author" content="UW Skating" />
+	<meta name="UW Jamskating" content="UW Skating" />
 	<meta name="viewport" content="width=1024 />
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
 	
@@ -14,6 +14,8 @@
 	image1.src="pic/skater.jpg"
 	var image2 = new Image()
 	image2.src="pic/Roller_skates,_1910.jpg"
+	var image3 = new Image()
+	image3.src = "pic/r_s.png"
 	//-->
 	</script>
 </head>
@@ -26,19 +28,19 @@
 	</header>
 	<div id="container">
 	<ul id="navbar">
-	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/skating.html">Main</a><li>
-	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/meetup.html">Meet ups</a></li>
-	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/tutorial.html">Tutorials</a></li>
-	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/gallery.html">Gallery</a></li>
-	<li class="navlink"><a href="/Users/yukis/Documents/Skating-club-website/src/faqs.html">FAQ</a></li>
+	<li class="navlink"><a href="http://students.washington.edu/syq2012f/index.html">Main</a><li>
+	<li class="navlink"><a href="http://students.washington.edu/syq2012f/meetup.html">Meet ups</a></li>
+	<li class="navlink"><a href="http://students.washington.edu/syq2012f/tutorial.html">Tutorials</a></li>
+	<li class="navlink"><a href="http://students.washington.edu/syq2012f/gallery.html">Gallery</a></li>
+	<li class="navlink"><a href="http://students.washington.edu/syq2012f/faqs.html">FAQ</a></li>
 	</ul>
 	</div>
 	
-	<div id="coutainer">
+	
 		<div id="img">
 		<a href="javascript:slidelink()"><img src="pic/skater.jpg" name="slide" alt ="photo" weidth="300" height="500"/></a>
 		</div>
-	</div>
+	
 		<script typr="text/javascript">
 		<!--
 		var step=1
@@ -48,7 +50,7 @@
 		return
 		document.images.slide.src=eval("image"+step+".src")
 		whichimage=step
-		if(step<2)
+		if(step<3)
 		step++
 		else
 		step=1
@@ -57,7 +59,7 @@
 		slideit()
 		function slidelink(){
 		if(whichimage==1)
-		window.location="/Users/yukis/Documents/Skating-club-website/src/gallery.html"
+		window.location="http://students.washington.edu/syq2012f/gallery.html"
 		else if(whichimage==2)
 		window.location="http://en.wikipedia.org/wiki/Roller_skating"
 		}
